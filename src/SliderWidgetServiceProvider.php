@@ -1,15 +1,16 @@
 <?php
 
-namespace DgDev\WidgetSlider;
+namespace DgDev\SliderWidget;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class WidgetSliderServiceProvider extends PackageServiceProvider
+class SliderWidgetServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
         $package
-            ->name('filament-slider-widget');
+            ->name('slider-widget')
+            ->hasViews('slider-widget');
     }
 }

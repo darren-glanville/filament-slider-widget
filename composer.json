@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"DgDev\\WidgetSlider\\": "src"
+			"DgDev\\SliderWidget\\": "src"
 		}
 	},
 	"config": {
@@ -32,7 +32,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"DgDev\\WidgetSlider\\WidgetSliderServiceProvider"
+				"DgDev\\SliderWidget\\SliderWidgetServiceProvider"
 			]
 		}
 	},
